@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "enabledManagers": ["tekton"],
+  "prHourlyLimit": 0,
+  "prConcurrentLimit": 0,
+  "tekton": {
+    "fileMatch": [
+      "^.tekton\\/.*?\\.yaml$"
+    ]
+  }
+}
